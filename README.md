@@ -22,21 +22,21 @@ This ensures consistency without duplicating files across repositories.
 ---
 
 ## 🗂 Recommended Structure
-
 .github/
-│
 ├── profile/
-│ └── README.md
+│   └── README.md                # Public organization landing page
 │
 ├── ISSUE_TEMPLATE/
-│ ├── bug_report.md
-│ └── feature_request.md
+│   ├── bug_report.md            # Standard bug report format
+│   └── feature_request.md       # Feature proposal template
 │
-├── PULL_REQUEST_TEMPLATE.md
-├── CODE_OF_CONDUCT.md
-├── SECURITY.md
+├── PULL_REQUEST_TEMPLATE.md     # Default pull request structure
+├── CODE_OF_CONDUCT.md           # Community guidelines
+├── SECURITY.md                  # Vulnerability reporting policy
+│
 └── workflows/
-└── ci.yml
+    └── ci.yml                   # Continuous Integration pipeline
+
 
 
 ---
