@@ -1,58 +1,97 @@
-# 🌐 Paradis-College
+# 📁 Paradis-College — Organization Configuration
 
-> Applied Computer Science & Educational Technology Ecosystem
+This repository contains **organization-wide GitHub configuration files** that apply across all Paradis-College projects.
 
----
-
-## 🚀 Overview
-
-**Paradis-College** is a modular learning and development organization focused on:
-
-- 📘 Algorithms & competitive programming  
-- 🤖 Robotics and embedded systems  
-- 🌐 Networking, cybersecurity, and CTF-style labs  
-- 🧠 Applied computer science for secondary education  
-- 🛠 Real infrastructure learning (servers, clusters, IoT)
-
-This GitHub organization hosts all core educational, infrastructure, and experimental repositories.
+It defines standards, templates, automation, and governance rules shared by every repository inside the organization.
 
 ---
 
-## 🗺 Quick Navigation
+## 🎯 Purpose of `.github/`
 
-### 📚 Learning Tracks
+GitHub automatically reads this repository to provide:
 
-| Domain | Repository |
-|-------|-----------|
-| Algorithms & C++ | `cpp.paradis-college` |
-| Arduino & IoT | `arduino.paradis-college` |
-| Robotics Systems | `robotics.paradis-college` |
-| Networking & Security Labs | `netlab.paradis-college` |
-| Interactive Web Lessons | `learn.paradis-college` |
+- Default issue templates  
+- Default pull request templates  
+- Community health files  
+- Security policy  
+- CI/CD workflows  
+- Organization profile page  
 
----
-
-### 🏗 Platform Infrastructure
-
-| Service | Purpose |
-|--------|---------|
-| `manage.paradis-college` | Monitoring & dashboards |
-| `auth.paradis-college` | Identity & access |
-| `api.paradis-college` | Core education APIs |
-| `infra.paradis-college` | Servers & deployment |
+This ensures consistency without duplicating files across repositories.
 
 ---
 
-### 🧪 Research & Experiments
+## 🗂 Recommended Structure
 
-- Raspberry Pi cluster orchestration  
-- Local AI agents  
-- Distributed microservices  
-- Classroom simulation environments  
+.github/
+│
+├── profile/
+│ └── README.md
+│
+├── ISSUE_TEMPLATE/
+│ ├── bug_report.md
+│ └── feature_request.md
+│
+├── PULL_REQUEST_TEMPLATE.md
+├── CODE_OF_CONDUCT.md
+├── SECURITY.md
+└── workflows/
+└── ci.yml
+
 
 ---
 
-## 🧱 Design Philosophy
+## 🧱 Organization Standards
 
-All projects follow a structured flow:
+All repositories should aim for:
 
+- Clear documentation  
+- Reproducible setup  
+- Educational clarity  
+- Structured commits  
+- Minimal but meaningful CI  
+
+---
+
+## 🤖 Automation Goals
+
+- Linting & formatting  
+- Unit & integration tests  
+- Build validation  
+- Static analysis  
+- Deployment safeguards  
+
+---
+
+## 📚 Documentation Culture
+
+Each repository should include:
+
+- A structured README  
+- Setup instructions  
+- Architectural overview (if relevant)  
+- Learning objectives (for educational projects)  
+
+---
+
+## 🔐 Security Policy
+
+Security disclosures are handled through `SECURITY.md`.
+
+Contributors are encouraged to report vulnerabilities responsibly.
+
+---
+
+## 🧠 Governance Philosophy
+
+This repository acts as the **governance layer** of the Paradis-College ecosystem.
+
+It enables:
+
+- Consistency  
+- Clean collaboration  
+- Professional project hygiene  
+
+---
+
+Designed to scale education like real infrastructure.
